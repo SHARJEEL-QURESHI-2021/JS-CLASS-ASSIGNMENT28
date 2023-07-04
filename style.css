@@ -1,0 +1,141 @@
+#box {
+    border: 5px double orangered;
+    width: 1289px;
+    padding: 10px;
+    background-color: black;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+#img {
+    display: block;
+    border: none;
+    width: 1250px;
+    height: 30px;
+    font-size: large;
+    padding: 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#inp {
+    display: block;
+    border: none;
+    width: 1250px;
+    height: 30px;
+    font-size: large;
+    padding: 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#inp1 {
+    display: block;
+    border: none;
+    width: 1250px;
+    height: 30px;
+    font-size: large;
+    padding: 0px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 630px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: darkgreen;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#two {
+    margin-left: 12px;
+}
+
+#first {
+    border: 5px double orangered;
+    width: 650px;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+#second {
+    border: 5px double orangered;
+    width: 650px;
+    height: 450px;
+    overflow-y: scroll;
+    position: absolute;
+    left: 669px;
+    top: 230px;
+}
+
+nav {
+    text-align: center;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    padding-top: 3px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#first::-webkit-scrollbar {
+    width: 10px;
+    height: 485px;
+    margin-top: 30px;
+    background-color: orangered;
+}
+
+#second::-webkit-scrollbar {
+    width: 10px;
+    height: 485px;
+    margin-top: 30px;
+    background-color: orangered;
+}
+
+
+img{
+    display: block;
+    width: 620px;
+    max-height: 250px;
+    padding-left: 10px;
+}
+
+h3{
+    width: 620px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+p{
+    font-weight: bold;
+    width: 620px;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* HOVER */
+#img:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#inp:hover {
+    background-color: orangered;
+    color: white;
+}
+
+button:hover {
+    background-color: orangered;
+    color: black;
+}
